@@ -27,7 +27,7 @@ devDependencies:
     version: 8.3.0(storybook@8.3.0)
   '@storybook/addon-links':
     specifier: ^8.3.0
-    version: 8.3.0(react@18.3.1)(storybook@8.3.0)
+    version: 8.6.18(react@18.3.1)(storybook@8.3.0)
   '@storybook/addon-onboarding':
     specifier: ^8.3.0
     version: 8.3.0(react@18.3.1)(storybook@8.3.0)
@@ -909,20 +909,19 @@ packages:
       ts-dedent: 2.2.0
     dev: true
 
-  /@storybook/addon-links@8.3.0(react@18.3.1)(storybook@8.3.0):
-    resolution: {integrity: sha512-nUnoMPPuxM8yJ7LCrppsUrn3gwqt4E0si9fqIIb5IkB56vz48RxCO9MtO1qjwhWosfMdN6boHaOl1Qc6IxV3Lg==}
+  /@storybook/addon-links@8.6.18(react@18.3.1)(storybook@8.3.0):
+    resolution: {integrity: sha512-FFlQcPRTgXoFZr2uawtf7lNc/ceIVRhU13BkJbJZKlil3+C8ORFDO1vnREzHje9JzeOWm/rzI0ay0RVetCcXzg==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
-      storybook: ^8.3.0
+      storybook: ^8.6.18
     peerDependenciesMeta:
       react:
         optional: true
     dependencies:
-      '@storybook/csf': 0.1.11
       '@storybook/global': 5.0.0
       react: 18.3.1
       storybook: 8.3.0
-      ts-dedent: 2.2.0
+      ts-dedent: 2.3.0
     dev: true
 
   /@storybook/addon-measure@8.3.0(storybook@8.3.0):
@@ -1029,7 +1028,7 @@ packages:
       fs-extra: 11.2.0
       magic-string: 0.30.11
       storybook: 8.3.0
-      ts-dedent: 2.2.0
+      ts-dedent: 2.3.0
       typescript: 5.6.2
       vite: 5.4.5
     transitivePeerDependencies:
@@ -3746,6 +3745,11 @@ packages:
 
   /ts-dedent@2.2.0:
     resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}
+    engines: {node: '>=6.10'}
+    dev: true
+
+  /ts-dedent@2.3.0:
+    resolution: {integrity: sha512-JfJeIHke7y2egdGGgRAvpCwYFUsHlM2gPcrVOxFkznt/4uzQ7HFmvE63iFHVLBJNDuyDOQgijDK/tXH/f6Msjg==}
     engines: {node: '>=6.10'}
     dev: true
 
