@@ -33,7 +33,7 @@ devDependencies:
     version: 8.3.0(react@18.3.1)(storybook@8.3.0)
   '@storybook/blocks':
     specifier: ^8.3.0
-    version: 8.3.0(react-dom@18.3.1)(react@18.3.1)(storybook@8.3.0)
+    version: 8.6.14(react-dom@18.3.1)(react@18.3.1)(storybook@8.3.0)
   '@storybook/react':
     specifier: ^8.3.0
     version: 8.3.0(@storybook/test@8.3.0)(react-dom@18.3.1)(react@18.3.1)(storybook@8.3.0)(typescript@5.6.2)
@@ -987,7 +987,7 @@ packages:
     dependencies:
       '@storybook/csf': 0.1.11
       '@storybook/global': 5.0.0
-      '@storybook/icons': 1.2.10(react-dom@18.3.1)(react@18.3.1)
+      '@storybook/icons': 1.6.0(react-dom@18.3.1)(react@18.3.1)
       '@types/lodash': 4.17.7
       color-convert: 2.0.1
       dequal: 2.0.3
@@ -1002,6 +1002,25 @@ packages:
       telejson: 7.2.0
       ts-dedent: 2.2.0
       util-deprecate: 1.0.2
+    dev: true
+
+  /@storybook/blocks@8.6.14(react-dom@18.3.1)(react@18.3.1)(storybook@8.3.0):
+    resolution: {integrity: sha512-rBMHAfA39AGHgkrDze4RmsnQTMw1ND5fGWobr9pDcJdnDKWQWNRD7Nrlxj0gFlN3n4D9lEZhWGdFrCbku7FVAQ==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
+      storybook: ^8.6.14
+    peerDependenciesMeta:
+      react:
+        optional: true
+      react-dom:
+        optional: true
+    dependencies:
+      '@storybook/icons': 1.6.0(react-dom@18.3.1)(react@18.3.1)
+      react: 18.3.1
+      react-dom: 18.3.1(react@18.3.1)
+      storybook: 8.3.0
+      ts-dedent: 2.3.0
     dev: true
 
   /@storybook/builder-vite@8.3.0(storybook@8.3.0)(typescript@5.6.2)(vite@5.4.5):
@@ -1092,12 +1111,12 @@ packages:
     resolution: {integrity: sha512-FcOqPAXACP0I3oJ/ws6/rrPT9WGhu915Cg8D02a9YxLo0DE9zI+a9A5gRGvmQ09fiWPukqI8ZAEoQEdWUKMQdQ==}
     dev: true
 
-  /@storybook/icons@1.2.10(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-310apKdDcjbbX2VSLWPwhEwAgjxTzVagrwucVZIdGPErwiAppX8KvBuWZgPo+rQLVrtH8S+pw1dbUwjcE6d7og==}
+  /@storybook/icons@1.6.0(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-hcFZIjW8yQz8O8//2WTIXylm5Xsgc+lW9ISLgUk1xGmptIJQRdlhVIXCpSyLrQaaRiyhQRaVg7l3BD9S216BHw==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
-      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
+      react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0-beta
     dependencies:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -3746,6 +3765,11 @@ packages:
 
   /ts-dedent@2.2.0:
     resolution: {integrity: sha512-q5W7tVM71e2xjHZTlgfTDoPF/SmqKG5hddq9SzR49CH2hayqRKJtQ4mtRlSxKaJlR/+9rEM+mnBHf7I2/BQcpQ==}
+    engines: {node: '>=6.10'}
+    dev: true
+
+  /ts-dedent@2.3.0:
+    resolution: {integrity: sha512-JfJeIHke7y2egdGGgRAvpCwYFUsHlM2gPcrVOxFkznt/4uzQ7HFmvE63iFHVLBJNDuyDOQgijDK/tXH/f6Msjg==}
     engines: {node: '>=6.10'}
     dev: true
 
